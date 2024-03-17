@@ -1,0 +1,17 @@
+.cart-outside{
+    position: absolute;
+    top: 6%;
+    right: 0%;
+    /* padding: 0.5%; */
+    z-index: 99999;
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgba(241, 33, 33, 0.744); */
+    /* height: 500px; */
+    width: 500px;
+    /* border: 2px solid rgb(8, 8, 8); */
+}
+@media (max-width: 550px) {
+    .cart-outside{
+        width: 100%;
+    }
+}
